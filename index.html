@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Componente de Avaliação</title>
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+  <div class="container">
+    <div id="starIcon">
+      <img src="images\icon-star.svg" alt="star icon">
+    </div>
+    <div id="ratingContainer">
+      <div id="paragraph">
+        <h1 class="title">Curtiu nossa ajuda?</h1>
+        <span>Por favor, avalie nosso atendimento em relação à sua solicitação de suporte. 
+          Todo feedback é bem-vindo para melhorar nossos serviços!</span>
+
+      </div>
+      <div id="numbers">
+        <input type="button" class="ratingBtn" id="btn1" value="1" onclick="printValue(this)">
+        <input type="button" class="ratingBtn" id="btn2" value="2" onclick="printValue(this)">
+        <input type="button" class="ratingBtn" id="btn3" value="3" onclick="printValue(this)">
+        <input type="button" class="ratingBtn" id="btn4" value="4" onclick="printValue(this)">
+        <input type="button" class="ratingBtn" id="btn5" value="5" onclick="printValue(this)">
+      </div>
+      <div id="submitBtn">
+        <input type="button" id="sbmtBtn" value="ENVIAR" disabled onclick="changeScreen()">
+        
+      </div>
+      <!-- Rating state end -->
+    </div>
+    <!-- Thank you state start -->
+    <div id="tyContainer">
+      <img src="images\illustration-thank-you.svg" id="tyImage" alt="tyImage">
+      <span id="selectedRatingBox"> 
+      </span>
+      <h2 class="title">Obrigado!</h2>
+
+      <span id="tySpan">Agradecemos a sua disponibilidade para avaliar nosso atendimento. Se precisar de mais suporte,
+        não hesite em nos contatar!
+      </span>
+      <!-- Thank you state end -->
+    </div>
+  </div>
+
+  <div class="attribution">
+    Desafio em <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Desenvolvido por <a href="https://www.linkedin.com/in/mateus-anjos-3390aaaa/">Mateus Anjos</a>.
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

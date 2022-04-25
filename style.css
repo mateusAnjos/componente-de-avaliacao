@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#starIcon{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 1rem;
+}
+.container{
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 15px;
+    margin-top:15rem;
+    padding: 2rem;
+    width: 24rem;
+    
+}
+
+.title{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+}
+#paragraph{
+    margin-bottom: 1rem;
+}
+span{
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+#numbers{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:1rem
+}
+.ratingBtn{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: hsl(213, 19%, 18%);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+    font-weight: 700;
+
+}
+.ratingBtn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.ratingBtn:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+#sbmtBtn{
+    width: 100%;
+    height: 2rem;
+    border-radius: 15px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    font-weight:700;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s
+}
+#sbmtBtn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    
+}
+
+#ratingContainer{
+    display: flex;
+    flex-direction: column;
+}
+#tyContainer{
+    display:none;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+#tyImage{
+    margin-bottom: 2rem;
+}
+#selectedRatingBox{
+    color: hsl(25, 97%, 53%);
+    margin-bottom: 2rem;
+    background-color: hsl(213, 19%, 18%) ;
+    padding: 0.5rem;
+    width: 60%;
+    border-radius: 15px;
+    display: inherit;
+    justify-content: inherit;
+}
+#tySpan{
+    text-align: center;
+}
+
+.attribution{
+    color: white;
+    font-size: 11px;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+}
+.attribution a {
+    text-decoration: none;
+    color: white;
+  }
