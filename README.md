@@ -21,7 +21,7 @@ Usuários devem:
 ### Links
 
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [componente em deploy](https://mateusanjos-ratingcomponent.netlify.app/)
 
 
 ### Desenvolvido com:
