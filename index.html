@@ -14,48 +14,48 @@
 <body>
 
   <!-- Rating state start -->
-  <div class="container">
-    <div id="starIcon">
+  <main class="container">
+    <section id="starIcon">
       <img src="images\icon-star.svg" alt="star icon">
-    </div>
-    <div id="ratingContainer">
-      <div id="paragraph">
+    </section>
+    <section id="ratingContainer">
+      <section id="paragraph">
         <h1 class="title">Curtiu nossa ajuda?</h1>
-        <span>Por favor, avalie nosso atendimento em relação à sua solicitação de suporte. 
-          Todo feedback é bem-vindo para melhorar nossos serviços!</span>
+        <article>Por favor, avalie nosso atendimento em relação à sua solicitação de suporte. 
+          Todo feedback é bem-vindo para melhorar nossos serviços!</article>
 
-      </div>
-      <div id="numbers">
+        </section>
+      <section id="numbers">
         <input type="button" class="ratingBtn" id="btn1" value="1" onclick="printValue(this)">
         <input type="button" class="ratingBtn" id="btn2" value="2" onclick="printValue(this)">
         <input type="button" class="ratingBtn" id="btn3" value="3" onclick="printValue(this)">
         <input type="button" class="ratingBtn" id="btn4" value="4" onclick="printValue(this)">
         <input type="button" class="ratingBtn" id="btn5" value="5" onclick="printValue(this)">
-      </div>
-      <div id="submitBtn">
+      </section>
+      <section id="submitBtn">
         <input type="button" id="sbmtBtn" value="ENVIAR" disabled onclick="changeScreen()">
         
-      </div>
+      </section>
       <!-- Rating state end -->
-    </div>
+    </section>
     <!-- Thank you state start -->
-    <div id="tyContainer">
+    <section id="tyContainer">
       <img src="images\illustration-thank-you.svg" id="tyImage" alt="tyImage">
-      <span id="selectedRatingBox"> 
-      </span>
+      <article id="selectedRatingBox"> 
+      </article>
       <h2 class="title">Obrigado!</h2>
 
-      <span id="tySpan">Agradecemos a sua disponibilidade para avaliar nosso atendimento. Se precisar de mais suporte,
+      <article id="tyArticle">Agradecemos a sua disponibilidade para avaliar nosso atendimento. Se precisar de mais suporte,
         não hesite em nos contatar!
-      </span>
+      </article>
       <!-- Thank you state end -->
-    </div>
-  </div>
+    </section>
+  </main>
 
-  <div class="attribution">
+  <footer class="attribution">
     Desafio em <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Desenvolvido por <a href="https://www.linkedin.com/in/mateus-anjos-3390aaaa/">Mateus Anjos</a>.
-  </div>
+  </footer>
   <script src="script.js"></script>
 
 </body>
