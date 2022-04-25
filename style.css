@@ -25,7 +25,7 @@ body{
 .container{
     background-color: hsl(216, 12%, 8%);
     border-radius: 15px;
-    margin-top:15rem;
+    margin-top:11rem;
     padding: 2rem;
     width: 24rem;
     
@@ -125,3 +125,64 @@ span{
     text-decoration: none;
     color: white;
   }
+
+  @media only screen and (max-width: 370px) {
+    .container{
+        margin-top: 4rem;
+        width: 16rem;
+      }
+      #selectedRatingBox{
+          width: 100%;
+      }
+  }
+  @media only screen and (min-width:375px) {
+      .container{
+        margin-top: 8rem;
+        width: 18rem;
+      }
+      #selectedRatingBox{
+          width: 100%;
+      }
+  }
+  @media only screen and (min-width:378px) {
+    .container{
+        margin-top: 14rem;
+        width: 18rem;
+      }
+      #selectedRatingBox{
+          width: 100%;
+      }
+  }
+  @media only screen and (min-width: 540px){
+    .container{
+        margin-top: 8rem;
+        width: 18rem;
+      }
+      #selectedRatingBox{
+          width: 100%;
+      }
+  }
+  @media only screen and (min-width: 720px ){
+    .container{
+        margin-top: 16rem;
+        width: 32rem;
+      }
+      #selectedRatingBox{
+          width: 100%;
+      }
+  }
+  @media only screen and (min-width:1024px) {
+    .container{
+        margin-top: 6rem;
+        width: 32rem;
+      }
+      #selectedRatingBox{
+          width: 100%;
+      }
+    }
+    @media only screen and (min-width:1440px){
+        .container {
+            margin-top: 8rem;
+            width: 24rem;
+        }
+    }
